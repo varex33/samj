@@ -1,0 +1,1 @@
+Template for Sam Argote Personal Blog
