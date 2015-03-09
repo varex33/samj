@@ -1,1 +1,1 @@
-Template for Sam Argote Personal Blog
+WordPress Theme for Sam Argote Personal Blog
