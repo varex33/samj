@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+.bio-pic{
+	float:left;
+}
+.bio-description{
+//	float:right;
+	color:yellow;
+}
+body{
+	background-image:url('../images/revamp/samargote-background.png')!important;
+	background-size:cover!important;
+	font-family: 'Open Sans', sans-serif!important;
+}
+body li, p{
+	color:#959595;
+}
+.top-bar{
+	background-image:url('../images/revamp/background-top.png');
+	background-repeat:repeat-x;
+	width:100%;
+}
+h2.gray{
+	color:#222222!important;
+}
+p.footer{
+	font-size:70%;
+}
+.wrapper-blog{
+	background-color:white;
+	border-radius:0px 0px 20px 20px;
+	box-shadow: 0 0 15px;
+	padding:15px;
+}
+.wrapper-contact{
+	background-color:white;
+	border-radius:20px 20px 20px 20px;
+	box-shadow: 0 0 15px;
+	padding:15px;
+}
+.wrapper-sidebar{
+	background-color:white;
+	border: solid 2px; 
+	border-radius:20px 20px 20px 20px;
+	box-shadow: 0 0 15px;
+	padding:15px;
+}
+.wrapper-footer{
+	background-color:white;
+	border-radius:20px 20px 20px 20px;
+	box-shadow: 0 0 15px;
+	padding:15px;
+}
+.wrapper-panel{
+	border-radius:20px 20px 20px 20px;
+	box-shadow: 0 0 15px;
+	padding: 15px;;
+}
+.wrapper-banner{
+	border-radius:20px 20px 0px 0px;
+}
+.linkedin{
+	float: left;
+}
+.resume{
+	float: left;
+}
+.resume-wrapper{
+	width: 300px;
+	height: 130px;
+}
+.sites-wrapper{
+	box-shadow: 0 0 35px;
+}
+.sidebar .widget li{
+	list-style:none;
+	margin-bottom:0.75em;
+}
+.sidebar .widget ul{
+	margin-left:3px;
+}
