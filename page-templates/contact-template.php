@@ -18,6 +18,8 @@ get_header();
 			</div>
 		</div>
 	</div>
-<?php get_sidebar(); ?>
+<div class="show-for-medium-up">
+	<?php get_sidebar(); ?>
+</div>
 </div>
 <?php get_footer(); ?>

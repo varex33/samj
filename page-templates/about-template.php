@@ -3,11 +3,10 @@
 Template Name: About-Template
 */
 get_header(); ?>
-
+<br>
 <div class="row">
 	<div id="primary" class="site-content small-12 medium-8 columns">
 		<div id="content" role="main">
-		<br /><br /><br />
 		<div class="wrapper-contact">
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -31,12 +30,12 @@ get_header(); ?>
 				<?php comments_template( '', true ); ?>
 
 			<?php endwhile; ?>
-		</div><!-- end Blog-wrapper -->
+		</div><!-- end wrapper -->
 		</div>
 	</div>
-
+<div class="show-for-medium-up">
 	<?php get_sidebar(); ?>
-
+</div>
 </div>
 
 <?php get_footer(); ?>
