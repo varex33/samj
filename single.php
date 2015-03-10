@@ -8,11 +8,11 @@
  */
 
 get_header(); ?>
-
+<br>
 <div class="row">
 	<div id="primary" class="site-content small-12 medium-9 columns">
 		<div id="content" role="main">
-			<div class="wrapper-blog">
+			<div class="wrapper-contact">
 			<?php while (have_posts()) : the_post(); ?>
 
 				<?php get_template_part( 'content', get_post_format() ); ?>
