@@ -40,18 +40,18 @@ get_header(); ?>
   </div><!-- end row -->
 	
 
-<!-- Web Porfolio -->
+<!-- Display Porfolio for mobile -->
 
   <div class="row">
   <div class="large-12 show-for-small-only">         
 	     <div class="row">
-	       	<div class="large-4 small-6 columns">
+	       	<div class="large-4 small-1 columns">
         	    <a href="http://www.gagein.com" target="_blank"><img src="<?php echo  get_stylesheet_directory_uri().'/images/revamp/gagein.png' ?>" /></a>
             <div class="panel">
               <p class="subtitle">Gagein - Marketing Software</p>
             </div>
          	 </div>
-           <div class="large-4 small-6 columns">
+           <div class="large-4 small-1 columns">
                 <a href="http://www.bluebearmusic.org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/revamp/blue-bear.png' ?>" /> </a>
                 <div class="panel">
                   <p>Blue Bear - School of Music</p>
@@ -59,14 +59,14 @@ get_header(); ?>
            </div>
 	     </div> <!-- end row -->
       	<div class="row">
-          <div class="large-4 small-6 columns">
+          <div class="large-4 small-1 columns">
              <a href="http://newlifecpr.samprojects.us" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/revamp/newlife.png' ?>" /> </a>
                 <div class="panel">
                   <p>New Life CPR Classes</p>
                 </div>
          </div>
 	      </div>	
-	      <div class="large-4 small-6 columns">
+	      <div class="large-4 small-1 columns">
             <a href="http://www.rbcellars.com/blog" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/revamp/winery.png' ?>" /> </a>
             <div class="panel">
               <p class="subtitle">R&B Cellars Blog</p>
@@ -74,7 +74,7 @@ get_header(); ?>
         </div>
 
     	<div class="row">
-   	    <div class="large-4 small-6 columns">
+   	    <div class="large-4 small-1 columns">
            <a href="http://www.sccolpa.org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/revamp/sccolpa.png' ?>" /></a> 
                 <div class="panel">
                   <p>Sccolpa - Professional Association</p>
@@ -84,7 +84,7 @@ get_header(); ?>
   </div><!--End show-for-small -->
   </div><!-- end row -->
 
-
+<!-- Display Portfolio for Desktop Screens -->
     <div class="show-for-medium-up">
 	  <div class="row">
           <div class="large-4 small-4 columns">
