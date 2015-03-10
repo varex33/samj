@@ -45,13 +45,13 @@ get_header(); ?>
   <div class="row">
   <div class="large-12 show-for-small-only">         
        <div class="row">
-          <div class="large-4 columns">
+          <div class="large-4 small-6 columns">
               <a href="http://www.gagein.com" target="_blank"><img src="<?php echo  get_stylesheet_directory_uri().'/images/images-for-mobile/gagein.png' ?>" /></a>
             <div class="panel">
               <p class="subtitle">Gagein - Marketing Software</p>
             </div>
            </div>
-           <div class="large-4 ">
+           <div class="large-4 small-6 columns">
                 <a href="http://www.bluebearmusic.org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/images-for-mobile/blue-bear.png' ?>" /> </a>
                 <div class="panel">
                   <p>Blue Bear - School of Music</p>
@@ -59,27 +59,29 @@ get_header(); ?>
            </div>
        </div> <!-- end row -->
         <div class="row">
-          <div class="large-4 ">
+          <div class="large-4 small-6 columns">
              <a href="http://newlifecpr.samprojects.us" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/images-for-mobile/newlife.png' ?>" /> </a>
                 <div class="panel">
                   <p>New Life CPR Classes</p>
                 </div>
          </div>
-        </div>  
-        <div class="large-4 ">
+        <div class="large-4 small-6 columns">
             <a href="http://www.rbcellars.com/blog" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/images-for-mobile/winery.png' ?>" /> </a>
             <div class="panel">
               <p class="subtitle">R&B Cellars Blog</p>
             </div>
         </div>
-
+      </div>
       <div class="row">
-        <div class="large-4 ">
+        <div class="large-4 small-6 columns">
            <a href="http://www.sccolpa.org" target="_blank"><img src="<?php echo get_stylesheet_directory_uri().'/images/images-for-mobile/sccolpa.png' ?>" /></a> 
                 <div class="panel">
                   <p>Sccolpa - Professional Association</p>
                 </div>
         </div>  
+        <div class="large-4 small-6 columns">
+        </div>  
+
       </div><!-- end row -->
   </div><!--End show-for-small -->
   </div><!-- end row -->
