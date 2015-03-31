@@ -10,10 +10,13 @@
 body{
 	background-image:url('../images/revamp/samargote-background.png')!important;
 	background-size:cover!important;
-	font-family: 'Open Sans', sans-serif!important;
+	/*font-family: 'Open Sans', sans-serif!important; */
+	font-family: 'Lora', serif!important;
+	font-weight: 400!important;
 }
-body li, p{
-	color:#959595;
+#content p{
+	color:#464646;
+	line-height: 2em!important;
 }
 .top-bar{
 	background-image:url('../images/revamp/background-top.png');
@@ -58,6 +61,9 @@ p.footer{
 }
 .wrapper-banner{
 	border-radius:20px 20px 0px 0px;
+}
+.wrapper-banner img{
+	margin-top: -10px;
 }
 .linkedin{
 	float: left;

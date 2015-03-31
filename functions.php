@@ -139,10 +139,8 @@ class WP_Widget_Recent_Posts_Exclude extends WP_Widget {
 function WP_Widget_Recent_Posts_Exclude_init() {
     unregister_widget('WP_Widget_Recent_Posts');
     register_widget('WP_Widget_Recent_Posts_Exclude');
-}
- 
+} 
 add_action('widgets_init', 'WP_Widget_Recent_Posts_Exclude_init');
  
-
 
 ?>
