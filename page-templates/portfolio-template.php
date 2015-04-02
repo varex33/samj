@@ -42,7 +42,7 @@ get_header(); ?>
 
 <!-- Display Porfolio for mobile -->
   <div class="row">
-    <div class="large-12 show-for-small-only"> 
+    <div class="large-12 small-12 columns"> 
         <div class="panel">
             <div class="wrapper-panel">
               <center>
