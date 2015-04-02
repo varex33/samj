@@ -41,6 +41,11 @@ get_header(); ?>
   
 
 <!-- Display Porfolio for mobile -->
+  <div class="row">
+    <div class="large-12 show-for-small-only"> 
+      <center><h2>Web Portfolio</h2></center>        
+    </div>
+  </div>  
 
   <div class="row">
   <div class="large-12 show-for-small-only">         
@@ -88,6 +93,19 @@ get_header(); ?>
 
 <!-- Display Portfolio for Desktop Screens -->
     <div class="show-for-medium-up">
+    <div class="row">
+      <div class="large-12 columns"> 
+          <div class="panel">
+            <div class="wrapper-panel">
+              <center>
+                <h2>Web Portfolio</h2>
+                <p>Below are examples of my work, for more examples or references, you can reach me at <b>hello@samargote.com</b></p>
+              </center>   
+
+            </div>
+          </div>
+      </div>
+    </div>  
     <div class="row">
           <div class="large-4 small-4 columns">
             <div class="sites-wrapper">
