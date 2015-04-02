@@ -14,7 +14,7 @@ get_header(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 					<header class="entry-header">
-						<center><h1 class="entry-title"><?php the_title(); ?></h1></center>
+						<center><h2 class="entry-title"><?php the_title(); ?></h2></center>
 					</header>
 
 					<div class="entry-content">

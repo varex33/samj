@@ -16,7 +16,7 @@ get_header();
 				while(have_posts()):the_post(); ?>
 				<div class="row">	
 				  <div class="large-12 columns">
-					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+					<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
 				</div>
 				</div>
 				<div class="row">
