@@ -85,3 +85,22 @@ p.footer{
 .sidebar .widget ul{
 	margin-left:3px;
 }
+/***  ADD CSS FOR WP CAPTION ALIGNMENT****/
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.aligncenter{
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
