@@ -104,3 +104,7 @@ p.footer{
 .wp-caption.alignright {
     margin: 5px 0 20px 20px;
 }
+.aligncenter img{
+	margin-left: auto;
+	margin-right: auto;
+}
