@@ -42,15 +42,17 @@ get_header(); ?>
 
 <!-- Display Porfolio for mobile -->
   <div class="row">
+    <div class="large-12 show-for-small-only">         
     <div class="large-12 small-12 columns"> 
         <div class="panel">
             <div class="wrapper-panel">
               <center>
                 <h2>Web Portfolio</h2>
-                <p>Below are examples of my work, for more examples or references, you can reach me at <b>hello@samargote.com</b></p>
+                <p>Below are some examples of my work, for more examples or references you can reach me at <b>hello@samj.org</b></p>
               </center>   
             </div>
         </div>
+    </div>
     </div>
   </div>  
 
@@ -106,7 +108,7 @@ get_header(); ?>
             <div class="wrapper-panel">
               <center>
                 <h2>Web Portfolio</h2>
-                <p>Below are examples of my work, for more examples or references, you can reach me at <b>hello@samargote.com</b></p>
+                <p>Below are some examples of my work, for more examples or references you can reach me at <b>hello@samj.org</b></p>
               </center>   
             </div>
           </div>

@@ -10,7 +10,7 @@
 			wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'inline-list', 'container' => 'nav', 'container_class' => 'small-12 medium-9 columns' ) );
 			echo '</div>';
 		} ?>
-	<center><p class="footer">© Copyright Sam Argote 2013 - 2015</p></center>
+	<center><p class="footer">© Copyright Sam J - 2015</p></center>
 	</div><!--end wrapper-blog -->
 	</div>
 	</footer>
