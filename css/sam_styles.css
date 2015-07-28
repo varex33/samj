@@ -126,9 +126,3 @@ input#searchsubmit {
 h3.sd-title{
 	color: #008cba;
 }
-/*** Customization About Page **/
-.about-content{
-	float: right;
-	width: 400px;
-	margin-top: -150px;
-}

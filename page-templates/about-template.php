@@ -18,14 +18,15 @@ get_header(); ?>
 					</header>
 
 					<div class="entry-content">
-						<div class="sam-pic">
-							<img src="http://samj.org/wp-content/uploads/2014/07/sam-sepia-small.png">
-						</div>
-						<div class="about-content">
-							<?php the_content(); ?>
+						<div class="row">
+							<div class="large-4 columns">
+								<img src="http://samj.org/wp-content/uploads/2014/07/sam-sepia-small.png">
+							</div>
+							<div class="large-8 columns">
+								<?php the_content(); ?>
+							</div>
 						</div>
 					</div>
-
 					<footer class="entry-meta">
 						<?php edit_post_link( __( 'Edit', 'cornerstone' ), '<span class="edit-link">', '</span>' ); ?>
 					</footer>
