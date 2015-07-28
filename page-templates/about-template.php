@@ -18,7 +18,12 @@ get_header(); ?>
 					</header>
 
 					<div class="entry-content">
-						<?php the_content(); ?>
+						<div class="sam-pic">
+							<img src="http://samj.org/wp-content/uploads/2014/07/sam-sepia-small.png">
+						</div>
+						<div class="about-content">
+							<?php the_content(); ?>
+						</div>
 					</div>
 
 					<footer class="entry-meta">
