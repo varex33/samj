@@ -24,16 +24,17 @@
 		<?php endif; // is_single() ?>
 		<div class="entry-meta">
 			<p>Posted on <?php the_date(); ?> by <a href="/samargote/about"><?php the_author(); ?></a></p>
-			<?php echo sharing_display(); ?>
+			<?php echo sharing_display(); // Display Share buttons at the end of Post ?>
 		</div>
 	</header>
 
-	<?php if ( is_search()) : // Only display Excerpts for Search ?>
+	<?php if ( is_search() || is_category() ) : // Only display Excerpts for Search ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div>
 	<?php else : ?>
 	<div class="entry-content">
+		<center><?php the_post_thumbnail(); ?></center>
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'cornerstone' ) ); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'cornerstone' ), 'after' => '</div>' ) ); ?>
 	</div>
