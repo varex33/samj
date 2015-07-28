@@ -24,6 +24,7 @@
 		<?php endif; // is_single() ?>
 		<div class="entry-meta">
 			<p>Posted on <?php the_date(); ?> by <a href="/samargote/about"><?php the_author(); ?></a></p>
+			<?php echo sharing_display(); ?>
 		</div>
 	</header>
 
